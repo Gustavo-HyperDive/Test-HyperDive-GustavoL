@@ -6,15 +6,19 @@ using UnityEngine;
 public class ShaderPosition : MonoBehaviour
 {
     public float radius = 1f;
-
-    void Start()
-    {
-        
-    }
+    public ParticleSystem particleSystem;
 
     void Update()
     {
         Shader.SetGlobalVector("_Position", transform.position);
         Shader.SetGlobalFloat("_Radius", radius);
+
+        // Atualiza o raio do shape do Particle System
+        if (particleSystem != null)
+        {
+            var shape = particleSystem.shape;
+            shape.radius = radius - 0.5f;
+        }
+
     }
 }
