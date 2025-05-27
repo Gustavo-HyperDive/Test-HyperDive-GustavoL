@@ -64,19 +64,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Alpha: 1
     - _AlphaClip: 0
+    - _AlphaIntersection: 0
     - _AlphaToMask: 0
     - _Blend: 0
     - _CastShadows: 0
     - _Cull: 2
-    - _Distortion: 0.042
+    - _Distortion: 0.014
     - _DstBlend: 10
     - _Float: 13.09
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _STYLE: 1
+    - _STYLE: 2
     - _Scale: 75.16
-    - _ScaleDistortion: 120
+    - _ScaleDistortion: 100
     - _ScaleNoise: 80
     - _SrcBlend: 5
     - _Surface: 1
@@ -84,8 +86,8 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 0.15174672, g: 0.03991634, b: 0.21698111, a: 0}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 0.20017035, g: 0.05931826, b: 0.2924528, a: 0}
     - _Position: {r: 0, g: 0, b: 0, a: 0}
     - _Radius: {r: 0, g: 0, b: 0, a: 0}
     - _Speed: {r: 0, g: 0.01, b: 0, a: 0}
