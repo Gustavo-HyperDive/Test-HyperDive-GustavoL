@@ -79,6 +79,7 @@ Material:
     - _isEffect: 1
     m_Colors:
     - _Color: {r: 0.11148181, g: 0, b: 0.1792453, a: 0}
+    - _ColorShadow: {r: 0.15186873, g: 0.009611958, b: 0.22641507, a: 1}
     - _DetailColor: {r: 0.3490566, g: 0.032416802, b: 0, a: 1}
     - _MainColor: {r: 0.5849056, g: 0.10498306, b: 0, a: 0}
   m_BuildTextureStacks: []

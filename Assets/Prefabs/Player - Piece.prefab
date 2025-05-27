@@ -672,7 +672,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: -90, y: 0, z: 0}
-    m_Scale: {x: 18, y: 18, z: 1}
+    m_Scale: {x: 15, y: 15, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -19510,8 +19510,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c9dbcbeb992b854894392cb94a8ea1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: {x: 18, y: 18}
+  baseRadius: {x: 15, y: 15}
   particleSystem: {fileID: 8767879542069431894}
+  step: 5
+  speed: 5
+  minStep: -5
+  maxStep: 15
 --- !u!198 &8054061899595536895
 ParticleSystem:
   m_ObjectHideFlags: 0
