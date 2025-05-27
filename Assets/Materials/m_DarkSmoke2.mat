@@ -71,7 +71,7 @@ Material:
     - _Blend: 0
     - _CastShadows: 0
     - _Cull: 2
-    - _Distortion: 0.086
+    - _Distortion: 0.024
     - _DstBlend: 10
     - _Float: 13.09
     - _QueueControl: 0
