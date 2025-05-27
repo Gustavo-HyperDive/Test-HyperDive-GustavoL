@@ -6,7 +6,10 @@ using UnityEngine;
 public class ShaderPosition : MonoBehaviour
 {
     public Vector2 baseRadius = new Vector2(1f, 1f);
-    public ParticleSystem particleSystem;
+    public ParticleSystem idleEffect;
+    public ParticleSystem expandEffect;
+    public ParticleSystem fireExpand;
+    public ParticleSystem fireColapse;
 
     public float step = 5f;                            // Valor fixo de incremento/diminuição
     public float speed = 5f;                           // Velocidade do Lerp
@@ -16,6 +19,12 @@ public class ShaderPosition : MonoBehaviour
     private Vector2 currentRadius;
     private Vector2 targetRadius;
     private float stepOffset = 0f;
+
+    void Awake()
+    {
+        if (idleEffect == null || expandEffect == null || fireExpand == null || fireColapse == null)
+            Debug.LogError("ParticleSystem não foi atribuído no Inspector!", this);
+    }
 
     void Start()
     {
@@ -31,11 +40,13 @@ public class ShaderPosition : MonoBehaviour
         {
             stepOffset = Mathf.Clamp(stepOffset + step, minStep, maxStep);
             UpdateTargetRadius();
+            PlayParticle(fireExpand);
         }
         else if (Input.GetKeyDown(KeyCode.R))
         {
             stepOffset = Mathf.Clamp(stepOffset - step, minStep, maxStep);
             UpdateTargetRadius();
+            PlayParticle(fireColapse);
         }
 
         // Interpola suavemente o raio atual em direção ao alvo
@@ -46,11 +57,26 @@ public class ShaderPosition : MonoBehaviour
         Shader.SetGlobalVector("_Radius", new Vector4(currentRadius.x, currentRadius.y, 0f, 0f));
 
         // Atualiza o shape do Particle System
-        if (particleSystem != null)
+        if (idleEffect != null)
         {
-            var shape = particleSystem.shape;
-            shape.scale = new Vector3(currentRadius.x, currentRadius.y, 1f);
+            var shape = idleEffect.shape;
+            shape.scale = new Vector3(currentRadius.x, currentRadius.y, 1f);            
         }
+        if (expandEffect != null)
+        {
+            var shape2 = expandEffect.shape;
+            shape2.scale = new Vector3(currentRadius.x, currentRadius.y, 1f);
+        }
+    }
+
+    void PlayParticle(ParticleSystem fx)
+    {
+        fx.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        fx.Play();
+
+        expandEffect.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+        expandEffect.Play();
+
     }
 
     void UpdateTargetRadius()
