@@ -86,9 +86,9 @@ Material:
     - _Color: {r: 0.11148181, g: 0, b: 0.1792453, a: 0}
     - _ColorShadow: {r: 0.15186873, g: 0.009611958, b: 0.22641507, a: 1}
     - _DetailColor: {r: 0.3490566, g: 0.032416802, b: 0, a: 1}
-    - _MainColor: {r: 0.74509805, g: 0.19607843, b: 0.12941177, a: 1}
+    - _MainColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
     - _SpeedShadow: {r: 0.2, g: -0.5, b: 0, a: 0}
-    - _TilingShadow: {r: 5, g: 5, b: 0, a: 0}
+    - _TilingShadow: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3441422623565838072

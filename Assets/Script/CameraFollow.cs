@@ -67,6 +67,7 @@ public class CameraFollow : MonoBehaviour
         currentOffset = Quaternion.Euler(0f, currentYaw, 0f) * scaledOffset;
     }
 
+    //Envia o ângulo atual da câmera para ajustar a direção do movimento no outro script (ChessPieceMove)
     public float GetCurrentYaw()
     {
         return currentYaw;

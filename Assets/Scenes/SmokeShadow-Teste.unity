@@ -4716,10 +4716,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DarkSmoke
       objectReference: {fileID: 0}
-    - target: {fileID: 6429257146094489757, guid: 766f26e9ea2bd054d8e1be95b925ce42, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
