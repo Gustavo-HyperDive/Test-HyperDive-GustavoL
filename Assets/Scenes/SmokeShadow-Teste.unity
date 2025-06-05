@@ -4619,6 +4619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player - Piece
       objectReference: {fileID: 0}
+    - target: {fileID: 8341292935450777378, guid: 65c782bd3500b9146b015e77051ce819, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8898626170253034760, guid: 65c782bd3500b9146b015e77051ce819, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4658,6 +4662,10 @@ PrefabInstance:
     - target: {fileID: 8898626170253034760, guid: 65c782bd3500b9146b015e77051ce819, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8907320442594338880, guid: 65c782bd3500b9146b015e77051ce819, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4732,6 +4740,6 @@ SceneRoots:
   - {fileID: 1422461892}
   - {fileID: 2044993624}
   - {fileID: 866417270}
-  - {fileID: 650738307}
   - {fileID: 6768783132274081024}
+  - {fileID: 650738307}
   - {fileID: 7034026151557988079}
