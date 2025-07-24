@@ -86,7 +86,7 @@ Material:
     - _isEffect: 0
     - _isFresnel: 0
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.35933605, g: 0.81578904, b: 0.8962264, a: 1}
     - _ColorShadow: {r: 0, g: 0, b: 0, a: 0}
     - _Cutoff: {r: -0.05, g: 0.05, b: 0, a: 0}
     - _DetailColor: {r: 0, g: 0, b: 0, a: 1}

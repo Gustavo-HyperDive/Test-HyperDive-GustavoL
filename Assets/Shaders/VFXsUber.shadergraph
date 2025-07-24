@@ -2230,8 +2230,8 @@
     "m_ObjectId": "7d0a69df72d14a08a18bf86a0739aa52",
     "m_Title": "Deth Texture - Intersection Alpha",
     "m_Position": {
-        "x": -2185.0,
-        "y": 582.0000610351563
+        "x": -2185.000244140625,
+        "y": 582.0001220703125
     }
 }
 
@@ -2359,7 +2359,7 @@
     "m_ObjectId": "86de53ba598c4571b986a635a8536b01",
     "m_Title": "VFXs Color",
     "m_Position": {
-        "x": -2041.0,
+        "x": -2041.0001220703125,
         "y": -374.0000305175781
     }
 }
@@ -3448,8 +3448,8 @@
     "m_ObjectId": "c6ee11e3b0cb444e885230f1636dec4f",
     "m_Title": "Alpha Dissolve in Custom Vertex Streams",
     "m_Position": {
-        "x": -2432.0,
-        "y": 298.00006103515627
+        "x": -2432.000244140625,
+        "y": 297.9999084472656
     }
 }
 

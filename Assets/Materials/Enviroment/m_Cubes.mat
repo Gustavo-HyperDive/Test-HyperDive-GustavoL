@@ -11,9 +11,9 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: bbfccf24dae00f6409bcdf43ba80e487, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _STYLE_SWAMP
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -84,9 +84,9 @@ Material:
     - _isEffect: 1
     m_Colors:
     - _Color: {r: 0.11148181, g: 0, b: 0.1792453, a: 0}
-    - _ColorShadow: {r: 0.15186873, g: 0.009611958, b: 0.22641507, a: 1}
+    - _ColorShadow: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 0.3490566, g: 0.032416802, b: 0, a: 1}
-    - _MainColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+    - _MainColor: {r: 0.4528302, g: 0.25430357, b: 0.1516554, a: 1}
     - _SpeedShadow: {r: 0.2, g: -0.5, b: 0, a: 0}
     - _TilingShadow: {r: 2, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PostProcessing-DarkSmoke
+  m_Shader: {fileID: -6465566751694194690, guid: 514c20dd67cbb294a9a035b619112191, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _STYLE_DISAPPEAR
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Base_Tex:
+        m_Texture: {fileID: 2800000, guid: 970812863ec552146bee77773431fe49, type: 3}
+        m_Scale: {x: 0.03, y: 0.02}
+        m_Offset: {x: 0, y: 0}
+    - _Board_Tex:
+        m_Texture: {fileID: 2800000, guid: 9eebf541e26c5b046b918ee9accdedb9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 01dc1b6e82f258343b0df3b0e7f6f4e7, type: 3}
+        m_Scale: {x: 0.1, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: 032ef3f3afd4d544c94dd0ddfcad891c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: 970812863ec552146bee77773431fe49, type: 3}
+        m_Scale: {x: 0.03, y: 0.02}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_4e2c1fbdce8e452f8737506a30bb4582_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d51014cd88ea8fc40b49cec07122ce38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_99e1c6f1f4b046d28d3624e0fcd07a9b_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _Base_Scale: 0.01
+    - _Board_Alpha: 0.7
+    - _Board_Distance: 0.111
+    - _Board_Scale: 0.05
+    - _Board_Smooth: 0.153
+    - _DistanceBoard: 0.174
+    - _Distortion: 0.455
+    - _Distortion_Amount: 0.125
+    - _Distortion_Scale: 1
+    - _EffectTransp: 1
+    - _Float: 0.01
+    - _Float_1: 0.6
+    - _Fullscreen_AlphaBlendOperation: 0
+    - _Fullscreen_BlendMode: 1
+    - _Fullscreen_ColorBlendOperation: 0
+    - _Fullscreen_DepthWrite: 0
+    - _Fullscreen_DstAlphaBlend: 10
+    - _Fullscreen_DstColorBlend: 10
+    - _Fullscreen_SrcAlphaBlend: 1
+    - _Fullscreen_SrcColorBlend: 5
+    - _Genaral_Alpha: 1
+    - _InvertTexture: 1
+    - _NoiseStrength: 1
+    - _STYLE: 2
+    - _Scale: 0.6
+    - _ScaleDistortion: 0.8
+    - _ScaleNoise: 9.58
+    - _SmoothBoard: 1
+    m_Colors:
+    - _Base_Color: {r: 0.11365675, g: 0, b: 0.21698111, a: 0}
+    - _Base_ColorRemap: {r: -0.5, g: 2, b: 0, a: 0}
+    - _Base_Speed: {r: 2, g: 1, b: 0, a: 0}
+    - _Board_SpeedWorld: {r: -0.5, g: 1, b: -0.5, a: 0}
+    - _Color: {r: 0.10507483, g: 0, b: 0.1792453, a: 0}
+    - _ColorChange: {r: 0.23, g: 1, b: 0, a: 0}
+    - _Distortion_Speed: {r: -2, g: -1, b: 0, a: 0}
+    - _Speed: {r: -2, g: -2, b: 0, a: 0}
+    - _SpeedBoard: {r: 2.97, g: 0, b: 0, a: 0}
+    - _SpeedDistortion: {r: 1, g: 1, b: 0, a: 0}
+    - _SpeedTESTE: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _Vector2: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector3: {r: 0, g: 1, b: 0, a: 0}
+    - _in_min: {r: -1, g: 1, b: 0, a: 0}
+    - _ou_tmax: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
