@@ -2900,7 +2900,7 @@
     "m_Title": "Distortion Texture",
     "m_Position": {
         "x": -2308.0,
-        "y": 226.00006103515626
+        "y": 226.0
     }
 }
 
@@ -4400,8 +4400,8 @@
     "m_ObjectId": "f4f507f98b284a9b9e83a3da7f840a56",
     "m_Title": "Intersection Alpha",
     "m_Position": {
-        "x": -1427.0001220703125,
-        "y": 941.0000610351563
+        "x": -1427.0,
+        "y": 941.0001220703125
     }
 }
 
